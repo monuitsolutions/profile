@@ -1,0 +1,53 @@
+
+.project_section {
+    background: rgba(161, 66, 250, 0.3);
+  }
+  .margin_mywork {
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  .project_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card_project {
+    width: 225px;
+    min-height: 225px;
+    border-radius: 5px;
+    margin: 2%;
+    background: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+  }
+  .card_project:hover {
+    background: #ff226d;
+    color: white;
+    scale: 1.03;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  .card_project img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .card_project .title {
+    padding: 15px 10px;
+  }
+  .card_project .title .btn{
+    padding: 10px 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    cursor: pointer;
+    background-color: var(--logo-color-span);
+    color: var(--white-color);
+    font-weight: 700;
+  }
+  

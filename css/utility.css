@@ -1,0 +1,31 @@
+
+  :root {
+    --main-font: Arial, Helvetica, sans-serif;
+    --container-width: 1200px;
+    --header-bg-color: #ccc;
+    --btn-bg-color: #54b4d3;
+    --btn-box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+    --logo-color-span: rgba(161, 66, 250, 0.6);
+    --white-color: #fff;
+    --width-100: 100%;
+    --width-75: 75%;
+    --width-50: 50%;
+    --width-25: 25%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+  }
+  body,
+  html {
+    scroll-behavior: smooth;
+    width: var(--width-100);
+  }
+  a{
+    text-decoration: none;
+  }
+  section {
+    width: var(--width-100);
+  }

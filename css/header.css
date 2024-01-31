@@ -1,0 +1,46 @@
+
+/* Hearder section */
+header {
+    background-color: var(--header-bg-color);
+    width: var(--width-100);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  nav {
+    max-width: var(--container-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .logo {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--white-color);
+  }
+  .logo span {
+    color: var(--logo-color-span);
+  }
+  .close {
+    display: none;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 5px 12px;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+  ul li a:hover {
+    background-color: var(--logo-color-span);
+    transition: 0.3s ease-in-out;
+    color: var(--white-color);
+  }
+  /* Hearder section End*/
